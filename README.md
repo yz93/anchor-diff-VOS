@@ -12,7 +12,7 @@ Code tested for Ubuntu 16.04, Python 3.7, PyTorch 0.4.1, and CUDA 9.2.
 
 * Clone the repository and change to the new directory.
 ```
-git clone https://github.com/yz93/anchor-diff-VOS-internal.git && cd anchor-diff-VOS-internal
+git clone https://github.com/yz93/anchor-diff-VOS-internal.git && cd anchor-diff-VOS
 ```
 * Save the working directory to an environment variable for reference.
 ```shell
@@ -62,7 +62,7 @@ python eval.py
 python eval.py --ms-mirror True --inst-prune True --eval-sal True
 ```
 * Use the [benchmark tool](https://github.com/davisvideochallenge/davis-matlab) to evaluate the saved masks under more metrics.
-* [Pre-computed results]()
+* [Pre-computed results](https://www.robots.ox.ac.uk/~yz/val_results.zip)
 
 ## License
 The [MIT License](https://choosealicense.com/licenses/mit/).
