@@ -45,7 +45,7 @@ and generate the pruning masks.
 ```shell
 cd $AnchorDiff
 wget www.robots.ox.ac.uk/~yz/detection.zip
-unzip detection.zip -d detection
+unzip detection.zip
 python detection_filter.py
 ```
 
