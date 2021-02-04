@@ -34,10 +34,9 @@ cd $AnchorDiff
 wget https://data.vision.ee.ethz.ch/csergi/share/davis/DAVIS-2017-trainval-480p.zip
 unzip DAVIS-2017-trainval-480p.zip -d data
 ```
-* Download pre-trained weights.
+* Download [pre-trained weights](https://drive.google.com/file/d/1A6ozn2FT2Ef1dn7HGNgUb1WboWFN2NON/view?usp=sharing) (1.5G) to $AnchorDiff.
 ```shell
 cd $AnchorDiff
-wget www.robots.ox.ac.uk/~yz/snapshots.zip
 unzip snapshots.zip -d snapshots
 ```
 * (If you do not intend to apply instance pruning described in the paper, feel free to skip this.) Download the detection results that we have computed using [ExtremeNet](https://github.com/xingyizhou/ExtremeNet),
